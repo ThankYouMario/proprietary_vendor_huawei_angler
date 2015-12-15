@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/huawei/angler/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/angler/proprietary/bin/qjpeg-dma-test:system/bin/qjpeg-dma-test \
+    vendor/huawei/angler/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/angler/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/angler/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
