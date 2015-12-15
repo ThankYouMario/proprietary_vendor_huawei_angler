@@ -19,6 +19,7 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     DMAgent \
+    ims \
     qcrilmsgtunnel \
     TimeService
 
