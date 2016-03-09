@@ -106,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/huawei/angler/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/huawei/angler/proprietary/lib64/hw/gps.msm8994.so:system/lib64/hw/gps.msm8994.so \
+    vendor/huawei/angler/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
     vendor/huawei/angler/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/huawei/angler/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/huawei/angler/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
@@ -115,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
     vendor/huawei/angler/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/huawei/angler/proprietary/lib/hw/gps.msm8994.so:system/lib/hw/gps.msm8994.so \
+    vendor/huawei/angler/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/huawei/angler/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/huawei/angler/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \

@@ -19,7 +19,6 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     CABLService \
-    DMAgent \
     HwSarControlService \
     ims \
     qcrilmsgtunnel \
