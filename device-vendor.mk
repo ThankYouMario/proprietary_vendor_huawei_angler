@@ -91,9 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/system/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/angler/proprietary/system/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/huawei/angler/proprietary/system/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/huawei/angler/proprietary/system/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
-    vendor/huawei/angler/proprietary/system/etc/firmware/wcd9320/wcd9320_mad_audio.bin:system/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
-    vendor/huawei/angler/proprietary/system/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/huawei/angler/proprietary/system/etc/flp.conf:system/etc/flp.conf \
     vendor/huawei/angler/proprietary/system/etc/gps.conf:system/etc/gps.conf \
     vendor/huawei/angler/proprietary/system/etc/izat.conf:system/etc/izat.conf \
