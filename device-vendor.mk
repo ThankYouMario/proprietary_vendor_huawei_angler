@@ -18,6 +18,8 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/huawei/angler/overlay
 
 PRODUCT_COPY_FILES += \
+    vendor/huawei/angler/proprietary/system/app/HwMMITest/lib/arm64/libManufacture.so:system/app/HwMMITest/lib/arm64/libManufacture.so \
+    vendor/huawei/angler/proprietary/system/bin/applypatch:system/bin/applypatch \
     vendor/huawei/angler/proprietary/system/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/huawei/angler/proprietary/system/bin/cnd:system/bin/cnd \
     vendor/huawei/angler/proprietary/system/bin/diag_callback_client:system/bin/diag_callback_client \
