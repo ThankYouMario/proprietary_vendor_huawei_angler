@@ -596,7 +596,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     CallStatistics \
-    CellBroadcastReceiver \
     CNEService \
     ConnMO \
     DCMO \

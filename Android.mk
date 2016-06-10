@@ -74,16 +74,6 @@ LOCAL_SRC_FILES := proprietary/system/priv-app/CallStatistics/CallStatistics.apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CellBroadcastReceiver
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_SRC_FILES := proprietary/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
