@@ -129,7 +129,7 @@ if [ ! -d "$BLOBS_ROOT" ]; then
 fi
 
 if [ -f "$SOURCE" ]; then
-    BUILD_NAME=$(basename "$SOURCE" | sed -r -e 's/(.*-[a-z]{3}[1-9]{2}[a-z])-factory-[1-9a-f]{8}.tgz/\1/')
+    BUILD_NAME=$(echo "$SOURCE" | cut -d / -f 4 | cut -d - -f 1-2)
     if [ -z "$BUILD_NAME" ]; then
         echo ""
         echo "    $SCRIPT_NAME: unable to parse build ID"
@@ -139,7 +139,7 @@ if [ -f "$SOURCE" ]; then
         exit 5
     fi
     echo ""
-    echo "Extracting the $BUILD_NAME package..."
+    echo "Extracting the $SOURCE package..."
     cd /tmp/aospa
     tar -xf "$SOURCE"
     cd "$BUILD_NAME"
@@ -367,6 +367,8 @@ if [ ! -z "$VENDOR_MOUNT" ]; then
 fi
 echo "  Removing temporary files."
 rm -rf /tmp/aospa
+rm $BAKSMALI_PATH
+rm $SMALI_PATH
 echo ""
 
 # Let the user know what the fingerprint is so that it can be updated as well
