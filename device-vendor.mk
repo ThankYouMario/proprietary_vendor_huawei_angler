@@ -168,6 +168,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libadpcmdec.so:vendor/lib/libadpcmdec.so \
     vendor/huawei/angler/proprietary/vendor/lib/libadreno_utils.so:vendor/lib/libadreno_utils.so \
     vendor/huawei/angler/proprietary/vendor/lib/libadsprpc.so:vendor/lib/libadsprpc.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libaptXScheduler.so:vendor/lib/libaptXScheduler.so \
     vendor/huawei/angler/proprietary/vendor/lib/libaudcal.so:vendor/lib/libaudcal.so \
     vendor/huawei/angler/proprietary/vendor/lib/libaudioalsa.so:vendor/lib/libaudioalsa.so \
     vendor/huawei/angler/proprietary/vendor/lib/libbccQTI.so:vendor/lib/libbccQTI.so \
