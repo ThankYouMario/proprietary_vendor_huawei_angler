@@ -494,6 +494,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/huawei/angler/proprietary/vendor/media/LMspeed_508.emd:vendor/media/LMspeed_508.emd \
     vendor/huawei/angler/proprietary/vendor/media/PFFprec_600.emd:vendor/media/PFFprec_600.emd \
+    vendor/huawei/angler/proprietary/vendor/qcril.db:vendor/qcril.db \
+    vendor/huawei/angler/proprietary/vendor/qcril_database/upgrade/1_version_intro.sql:vendor/qcril_database/upgrade/1_version_intro.sql \
+    vendor/huawei/angler/proprietary/vendor/qcril_database/upgrade/2_db_upgrade.sql:vendor/qcril_database/upgrade/2_db_upgrade.sql \
     vendor/huawei/angler/proprietary/vendor/xbin/wlutil:vendor/xbin/wlutil
 
 PRODUCT_PACKAGES += \
