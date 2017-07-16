@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HwMMITest \
     HwSarControlService \
+    atfwd \
     CarrierServices \
     CNEService \
     ConnMO \
