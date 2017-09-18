@@ -44,14 +44,14 @@ echo "  ANDROID_MAKEFILE=$ANDROID_MAKEFILE"
 echo -n "  BAKSMALI_PATH=$BAKSMALI_PATH"
 if [ ! -f "$BAKSMALI_PATH" ]; then
     echo " (downloading..)"
-    wget --quiet -O $BAKSMALI_PATH 'https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.2.0.jar'
+    wget --quiet -O $BAKSMALI_PATH 'https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.2.1.jar'
 else
     echo ""
 fi
 echo -n "  SMALI_PATH=$SMALI_PATH"
 if [ ! -f "$SMALI_PATH" ]; then
     echo " (downloading..)"
-    wget --quiet -O $SMALI_PATH 'https://bitbucket.org/JesusFreke/smali/downloads/smali-2.2.0.jar'
+    wget --quiet -O $SMALI_PATH 'https://bitbucket.org/JesusFreke/smali/downloads/smali-2.2.1.jar'
 else
     echo ""
 fi
